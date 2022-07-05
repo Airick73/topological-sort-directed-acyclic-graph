@@ -1,6 +1,13 @@
 # topological_sort_directed_acyclic_graph
 This program takes in a text file in a specific format represeting a directed graph and returns the the verticies topologically sorted or throws an expection if a cycle was detected. 
 
+Input file:
+The input graph is described in edge list format. The first line of the file has the number of vertices
+and edges of the graph, separated by a space (n and m, respectively).
+The following m lines have two nonnegative integers each. These integers, u and v, will be in
+the range 0 to n − 1, and they represent the endpoints of an edge in the graph. Specifically, they
+represent an edge from u to v.
+
 To run this program:
 g++ digraph.cpp digraph.h driver.cpp
 
